@@ -21,8 +21,7 @@ Create `UITextView`, then set `placeholder`.
 
 ```objc
 UITextView *textView = [[UITextView alloc] init];
-textView.placeholder = @"How are you?";
-textView.placeholderColor = [UIColor lightGrayColor]; // optional
+textView.placeholder = @"请输入";
 ```
 
 Congratulations! You're done.
