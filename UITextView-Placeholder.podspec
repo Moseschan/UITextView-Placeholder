@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "UITextView-Placeholder"
   s.version      = "0.0.1"
-  s.summary      = "git@github.com:Moseschan/UITextView-Placeholder.git"
+  s.summary      = "A placeholder for UITextView."
 
   s.description  = <<-DESC
                    A longer description of UITextView-Placeholder in Markdown format.
@@ -53,9 +53,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Moseschan" => "email@address.com" }
+  s.author             = { "Moseschan" => "chen865@gmail.com" }
   # Or just: s.author    = "Moseschan"
-  # s.authors            = { "Moseschan" => "email@address.com" }
+  # s.authors            = { "Moseschan" => "chen865@gmail.com" }
   # s.social_media_url   = "http://twitter.com/Moseschan"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = 'UITextView+Placeholder/UITextView+Placeholder.{h,m}'
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.frameworks = 'Foundation', 'UIKit'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
