@@ -77,6 +77,7 @@
         self.attributedText = originalText;
 
         label = [[UILabel alloc] init];
+        label.backgroundColor = [UIColor clearColor];
         label.textColor = [self.class defaultPlaceholderColor];
         label.numberOfLines = 0;
         label.userInteractionEnabled = NO;
